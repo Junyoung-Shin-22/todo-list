@@ -1,0 +1,44 @@
+input.button {
+    width: 80px;
+    text-align: center;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+p.item {
+    width: 200px;
+    height: 40px;
+    border: 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+p.item.todo {
+    background-color: rgb(255, 189, 171);
+}
+
+p.item.done {
+    background-color: rgb(97, 164, 97);
+}
+
+p.remove {
+    width: 25px;
+    background-color:rgb(48, 148, 229);
+    border: 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.item {
+    display: flex;
+}
